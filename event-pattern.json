@@ -1,0 +1,20 @@
+{
+  "detail": {
+    "eventName": [
+      "StopLogging",
+      "StartLogging",
+      "DeleteTrail",
+      "UpdateTrail",
+      "CreateTrail"
+    ],
+    "eventSource": [
+      "cloudtrail.amazonaws.com"
+    ]
+  },
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
+  "source": [
+    "aws.cloudtrail"
+  ]
+}
