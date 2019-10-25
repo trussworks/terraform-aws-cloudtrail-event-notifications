@@ -9,8 +9,9 @@
  * ## Usage
  *
  * ```hcl
- * module "cloudtrail_notifications" {
- *   source = "../../modules/aws-cloudtrail-notifications"
+ * module "cloudtrail-event-notifications" {
+ *   source  = "trussworks/cloudtrail-event-notifications/aws"
+ *   version = "1.0.0"
  *
  *   sns_topic_name = "slack-events"
  * }
