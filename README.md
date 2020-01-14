@@ -1,4 +1,3 @@
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 Enables notifications for any changes to CloudTrail. Notifications are sent to an SNS topic.
 
 Creates the following resources:
@@ -17,6 +16,7 @@ module "cloudtrail-event-notifications" {
 }
 ```
 
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
 
 | Name | Description | Type | Default | Required |
