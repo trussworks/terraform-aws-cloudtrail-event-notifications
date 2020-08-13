@@ -17,24 +17,6 @@ module "cloudtrail-event-notifications" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-Enables notifications for any changes to CloudTrail. Notifications are sent to an SNS topic.
-
-Creates the following resources:
-
-* CloudWatch event rule to filter AWS CloudTrail API calls
-* CloudWatch event target to send to SNS topic
-
-## Usage
-
-```hcl
-module "cloudtrail-event-notifications" {
-  source  = "trussworks/cloudtrail-event-notifications/aws"
-  version = "1.0.0"
-
-  sns_topic_name = "slack-events"
-}
-```
-
 ## Requirements
 
 | Name | Version |
