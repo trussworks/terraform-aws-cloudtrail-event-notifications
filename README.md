@@ -2,8 +2,8 @@ Enables notifications for any changes to CloudTrail. Notifications are sent to a
 
 Creates the following resources:
 
-* CloudWatch event rule to filter AWS CloudTrail API calls
-* CloudWatch event target to send to SNS topic
+- CloudWatch event rule to filter AWS CloudTrail API calls
+- CloudWatch event target to send to SNS topic
 
 ## Usage
 
@@ -16,19 +16,25 @@ module "cloudtrail-event-notifications" {
 }
 ```
 
+## Terraform Versions
+
+Terraform 0.13. Pin module version to `~> 3.X`. Submit pull-requests to `master` branch.
+
+Terraform 0.12. Pin module version to `~> 2.X`. Submit pull-requests to `terraform012` branch.
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
-| terraform | ~> 0.12.0 |
-| aws | ~> 2.70 |
+| terraform | ~> 0.13.0 |
+| aws | ~> 3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | ~> 2.70 |
+| aws | ~> 3.0 |
 
 ## Inputs
 
