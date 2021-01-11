@@ -18,7 +18,7 @@ module "cloudtrail-event-notifications" {
 
 ## Terraform Versions
 
-Terraform 0.13. Pin module version to `~> 3.X`. Submit pull-requests to `master` branch.
+Terraform 0.13 and later. Pin module version to `~> 3.X`. Submit pull-requests to `master` branch.
 
 Terraform 0.12. Pin module version to `~> 2.X`. Submit pull-requests to `terraform012` branch.
 
@@ -27,14 +27,14 @@ Terraform 0.12. Pin module version to `~> 2.X`. Submit pull-requests to `terrafo
 
 | Name | Version |
 |------|---------|
-| terraform | ~> 0.13.0 |
-| aws | ~> 3.0 |
+| terraform | >= 0.13.0 |
+| aws | >= 3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | ~> 3.0 |
+| aws | >= 3.0 |
 
 ## Inputs
 
