@@ -1,6 +1,8 @@
 # DEPRECIATION NOTICE
+
 This module has been deprecated and is no longer maintained. Should you need to continue to use it, please fork the repository. Thank you.
- Enables notifications for any changes to CloudTrail. Notifications are sent to an SNS topic.
+
+Enables notifications for any changes to CloudTrail. Notifications are sent to an SNS topic.
 
 Creates the following resources:
 
